@@ -1,7 +1,9 @@
 import React from 'react'
+import './Box.css'
 
-export default function Box() {
+export default function Box({id}) {
   return (
-    <div>Box</div>
+    <div className='box'>
+    </div>
   )
 }
